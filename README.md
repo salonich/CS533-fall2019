@@ -36,7 +36,7 @@ Then run:
 
 ``` npm update ```
 
-or 
+and after that,
 
 ```npm install ```
 
@@ -99,6 +99,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Run your own query
+## Run your own query
 
 If you are acquainted to cypher language, you can copy-paste your query in the text field and the result will be rendered on the webpage.
+
+### Please make sure to start your Noe4j database and then do npm start.
+
+
