@@ -26,11 +26,21 @@ You can chose any editor of your choice. To download VScode, go to (https://code
 
 You can clone this repository using the terminal or downloading the zip files. For the terminal :
 
-``` git clone <repository-link> ```
+``` git clone https://github.com/salonich/CS533-fall2019.git ```
 
 Once you have cloned the repository, do
 
 ``` cd CS533-fall2019 ```
+
+Then run:
+
+``` npm update ```
+
+or 
+
+```npm install ```
+
+This will download all the dependencies of the project.
 
 
 ## Available Scripts
@@ -72,8 +82,7 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+This will render your Neo4j database only if you have provided correct credentials and query.
 
 ### `npm test`
 
@@ -90,25 +99,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Run your own query
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+If you are acquainted to cypher language, you can copy-paste your query in the text field and the result will be rendered on the webpage.
