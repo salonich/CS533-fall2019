@@ -1,5 +1,5 @@
 ## Project for class of CS533
-This project can be used to rendere neo4j graphs using React component.
+This project can be used to render neo4j graphs using React component.
 
 ## Dependencies
 For this project, you need React, a Neo4j graph database and an IDE(in my case I am using VScode)
@@ -45,9 +45,9 @@ This will download all the dependencies of the project.
 
 ## Available Scripts
 
-Open your Neo4j database, select the project you want to render and start that project.
+Open your Neo4j database, select the project you want to render and start that project. Once the project has successfully started, go on to start your local react browser.
 
-In your code, I already have node module neo4j-graph-renderer which will handle all the work for you:
+In the code, I already have node module Neo4jGraphRenderer which will handle all the work for you:
 
 General usage:
 
@@ -69,10 +69,13 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 Props you must provide:
 
-url: the url required to access your neo4j db (e.g. "http://localhost:7474")
-user: the username required to access your neo4j db
-password: the password required to access your neo4j db
-query: the query you'd like to execute
+>url: the url required to access your neo4j db (e.g. "http://localhost:7474")
+
+>user: the username required to access your neo4j db
+
+>password: the password required to access your neo4j db
+
+>query: the query you'd like to execute
 
 
 In the project directory, you can run:
